@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap");
+body {
+  background: black;
+  color: white;
+  font-family: "Nunito", "sans-serif";
+}
+
+.widgetWrap {
+  background: #2a2a2a;
+}
+.widgetTitle {
+  border-bottom: 1px solid #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+
+.widgetValue {
+  padding-top: 10px;
+}
+
+.widgetValue .value {
+  font-size: 57px;
+  font-weight: 700;
+  text-align: left;
+  padding: opx 7px;
+  line-height: 100%;
+}
+
+.description {
+  font-size: 12px;
+  text-align: left;
+  padding-left: 13px;
+  padding-bottom: 10px;
+}
+
+text {
+  fill: white;
+}
+
+.TopHeader.row {
+  background: #2a2a2a;
+  margin-bottom: 19px;
+  padding: 20px 0px;
+  padding-left: 10px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 24px;
+  text-align: left;
+  font-weight: bold;
+}
+.Dropdown-root {
+  font-size: 14px;
+  width: 142px;
+  float: right;
+}
+
+.widgetWrap {
+  height: 182px;
+  margin-bottom: 19px;
+  box-shadow: white;
+  box-sizing: border-box;
+  border-radius: 3%;
+  cursor: pointer;
+}
+.widgetValue {
+  display: flex;
+  align-items: flex-end;
+  height: 130px;
+  padding-left: 7px;
+  padding-right: 0px;
+}
+.value {
+  color: yellow;
+}
+
+.widgetTitle {
+  color: rgb(101, 101, 245);
+}
+
+/* .dognut.widgetWrap {
+  text-align: center;
+} */
+.bounceRate > .widgetWrap > .widgetTitle {
+  color: white;
+}
+.bounceRate > .widgetWrap {
+  background-color:#8c7ae6;
+}
+
+.sessions > .widgetWrap > .widgetTitle {
+  color: white;
+}
+.sessions > .widgetWrap {
+  background-color:#273c75;
+}
+p > .footer {
+  background-color: rgb(255, 234, 234);
+  color: white;
+  text-align: center;
+  position: fixed;
+}
+p.footer {
+  background-color: #e9e0e0;
+  color: black;
+  font-weight: bold;
+}
+
+.users > .widgetWrap > .widgetTitle {
+  color: white;
+}
+.users > .widgetWrap {
+  background-color: #c23616;
+}
+
+.avgsession > .widgetWrap > .widgetTitle {
+  color: white;
+}
+.avgsession > .widgetWrap {
+  background-color:#e1b12c;
+}
